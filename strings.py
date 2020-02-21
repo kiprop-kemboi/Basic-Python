@@ -15,9 +15,40 @@ User Inputs
 
 """
 
-b = int(input("Enter the operation by selecting the number: \n\t1 . Addition \n\t2. Substration\n"))
 
-if(b == 1):
-	print(b)
+operation = int(input("choose the condition \n\t1.subtraction \n\t2.multiplication \n\t3.division\n\t4.power\n"))
+a = int(input("enter the number\n"))
+b = int(input("enter the number\n"))
+ans = 0
+if(operation == 1):
+    ans=(a-b)
+elif(operation == 2):
+    ans=(a*b)
+elif(operation ==3):
+    ans=(a/b)
+elif(operation == 4):
+    ans=(a**b)
 else:
-	print("Substration")
+    print ("invalid operation")
+
+
+
+print(ans)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
