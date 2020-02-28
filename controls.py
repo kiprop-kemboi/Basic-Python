@@ -4,17 +4,16 @@
 # In your condition there is nothing you are comparing.
 
 
-men = str(input("choose the name of your shoe brand\n\t1.hush puppies\n\t2.executive\n\t3.ambassador\n\t4.bata\n\t5.weinbrener\n"))
-if("your shoe brand is {hush puppies}"):
-    print("price tag is ksh 6999")
-elif("Your shoe brand is {executive}"):
-    print("price is ksh4999")
-elif("YOur shoe brand is {ambassador}"):
-    print("price is 5999")
-elif("Your shoe brand is {bata}"):
-    print("price is ksh3399")
-elif("Your shoe brand is{weinbrener}"):
-    print("price is ksh4499")
+men = int(input("your choice shoe brand\n\t1.tommy takies\n\t2.north star\n\t3.power\n\t4.nike\n"))
+if (1 is {}):
+    print("price is 2499")
+elif(2):
+    print("price is 1999")
+elif(3):
+    print("price is 4200")
+elif(4):
+    print("price is 4500")
 else:
-    ("the input entered is invalid")
+    print("brand out of stock")
+
 
