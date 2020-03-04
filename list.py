@@ -1,3 +1,13 @@
+"""
+This is a very good work.
+
+just leave the work here there is another concept which is suppose to be used here we didnt tackle..
+
+I will send you another assignment.
+
+"""
+
+
 shoe = ["nike", "adidas", "power", "tommy takkies", "safari"]
 selection =  str(input("select the your brand\n"))
 
