@@ -36,3 +36,14 @@ for n in shoe:
         break
         print("the end")
 
+
+
+#range of numbers
+print(range(1, 10))
+
+        
+        
+        
+        
+        
+        
